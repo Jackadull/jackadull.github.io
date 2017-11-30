@@ -1,0 +1,35 @@
+baseURL = "http://jackadull.net/"
+languageCode = "en-us"
+title = "Jackadull"
+theme = "hugo-creative-portfolio-theme"
+
+#googleAnalytics = ""
+
+[params]
+  copyright = "&copy; 2017 Madoc"
+  style = "default"
+
+  author = "Madoc"
+  motto = "Some code that I wrote"
+  description = "Open-source projects by Madoc"
+  #avatar = "abc"
+
+  sidebarAbout = [
+    "A place to link to my open-source projects.",
+    "When publishing code, it is good to own a domain. <br/> (Software modules are organized by the internet domains of their maintainers, to avoid name clashes.)",
+    "This is the domain that I reserved for mine. <br/> Since I already own it, I put up this little website that links to all the projects.",
+    "I am a professional IT guy from Hannover, Germany.",
+    "The name of this website is inspired by the common saying: <br/> <i>All the work and no play make Jack a dull boy.</i>",
+    "This refers to the fact that I maintain those projects in my spare time, as a hobby.",
+    "If you want to get in touch, follow one of the social links below."
+  ]
+
+  [params.social]
+  email = "m@jackadull.net"
+  github = "https://github.com/Madoc"
+  linkedin = "https://www.linkedin.com/in/matthias-deja/"
+  stackoverflow = "https://stackoverflow.com/users/540173/madoc"
+
+  [[params.navlinks]]
+  name = "Jackadull home"
+  url = ""
